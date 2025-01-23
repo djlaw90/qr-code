@@ -1,0 +1,44 @@
+html, body {
+    background-color: #CED6E3;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card-container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.card-title {
+    font-size: 1.1em;
+    font-family: "Reddit Mono", serif;
+}
+
+.card-copy {
+    font-family: "Roboto", serif;
+}
+
+.card-content {
+    text-align: center;
+    padding: 8px;
+}
+
+#qr-code-img {
+    width: 300px;
+    border-radius: 25px;
+    align-self: center;
+}
